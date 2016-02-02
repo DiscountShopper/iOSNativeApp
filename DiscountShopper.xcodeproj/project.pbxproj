@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C577AA1C617A4400EA3365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C577A91C617A4400EA3365 /* AppDelegate.swift */; };
+		09C577AC1C617A4400EA3365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C577AB1C617A4400EA3365 /* ViewController.swift */; };
+		09C577AF1C617A4400EA3365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C577AD1C617A4400EA3365 /* Main.storyboard */; };
+		09C577B11C617A4400EA3365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C577B01C617A4400EA3365 /* Assets.xcassets */; };
+		09C577B41C617A4400EA3365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C577B21C617A4400EA3365 /* LaunchScreen.storyboard */; };
+		09C577BF1C617A4400EA3365 /* DiscountShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C577BE1C617A4400EA3365 /* DiscountShopperTests.swift */; };
+		09C577CA1C617A4400EA3365 /* DiscountShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C577C91C617A4400EA3365 /* DiscountShopperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C577BB1C617A4400EA3365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C5779E1C617A4400EA3365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C577A51C617A4400EA3365;
+			remoteInfo = DiscountShopper;
+		};
+		09C577C61C617A4400EA3365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C5779E1C617A4400EA3365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C577A51C617A4400EA3365;
+			remoteInfo = DiscountShopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C577A61C617A4400EA3365 /* DiscountShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C577A91C617A4400EA3365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09C577AB1C617A4400EA3365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09C577AE1C617A4400EA3365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09C577B01C617A4400EA3365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C577B31C617A4400EA3365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09C577B51C617A4400EA3365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C577BA1C617A4400EA3365 /* DiscountShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountShopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C577BE1C617A4400EA3365 /* DiscountShopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountShopperTests.swift; sourceTree = "<group>"; };
+		09C577C01C617A4400EA3365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C577C51C617A4400EA3365 /* DiscountShopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountShopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C577C91C617A4400EA3365 /* DiscountShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountShopperUITests.swift; sourceTree = "<group>"; };
+		09C577CB1C617A4400EA3365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C577A31C617A4400EA3365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577B71C617A4400EA3365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577C21C617A4400EA3365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C5779D1C617A4400EA3365 = {
+			isa = PBXGroup;
+			children = (
+				09C577A81C617A4400EA3365 /* DiscountShopper */,
+				09C577BD1C617A4400EA3365 /* DiscountShopperTests */,
+				09C577C81C617A4400EA3365 /* DiscountShopperUITests */,
+				09C577A71C617A4400EA3365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C577A71C617A4400EA3365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C577A61C617A4400EA3365 /* DiscountShopper.app */,
+				09C577BA1C617A4400EA3365 /* DiscountShopperTests.xctest */,
+				09C577C51C617A4400EA3365 /* DiscountShopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C577A81C617A4400EA3365 /* DiscountShopper */ = {
+			isa = PBXGroup;
+			children = (
+				09C577A91C617A4400EA3365 /* AppDelegate.swift */,
+				09C577AB1C617A4400EA3365 /* ViewController.swift */,
+				09C577AD1C617A4400EA3365 /* Main.storyboard */,
+				09C577B01C617A4400EA3365 /* Assets.xcassets */,
+				09C577B21C617A4400EA3365 /* LaunchScreen.storyboard */,
+				09C577B51C617A4400EA3365 /* Info.plist */,
+			);
+			path = DiscountShopper;
+			sourceTree = "<group>";
+		};
+		09C577BD1C617A4400EA3365 /* DiscountShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C577BE1C617A4400EA3365 /* DiscountShopperTests.swift */,
+				09C577C01C617A4400EA3365 /* Info.plist */,
+			);
+			path = DiscountShopperTests;
+			sourceTree = "<group>";
+		};
+		09C577C81C617A4400EA3365 /* DiscountShopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09C577C91C617A4400EA3365 /* DiscountShopperUITests.swift */,
+				09C577CB1C617A4400EA3365 /* Info.plist */,
+			);
+			path = DiscountShopperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C577A51C617A4400EA3365 /* DiscountShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C577CE1C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopper" */;
+			buildPhases = (
+				09C577A21C617A4400EA3365 /* Sources */,
+				09C577A31C617A4400EA3365 /* Frameworks */,
+				09C577A41C617A4400EA3365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscountShopper;
+			productName = DiscountShopper;
+			productReference = 09C577A61C617A4400EA3365 /* DiscountShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C577B91C617A4400EA3365 /* DiscountShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C577D11C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopperTests" */;
+			buildPhases = (
+				09C577B61C617A4400EA3365 /* Sources */,
+				09C577B71C617A4400EA3365 /* Frameworks */,
+				09C577B81C617A4400EA3365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C577BC1C617A4400EA3365 /* PBXTargetDependency */,
+			);
+			name = DiscountShopperTests;
+			productName = DiscountShopperTests;
+			productReference = 09C577BA1C617A4400EA3365 /* DiscountShopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09C577C41C617A4400EA3365 /* DiscountShopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C577D41C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopperUITests" */;
+			buildPhases = (
+				09C577C11C617A4400EA3365 /* Sources */,
+				09C577C21C617A4400EA3365 /* Frameworks */,
+				09C577C31C617A4400EA3365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C577C71C617A4400EA3365 /* PBXTargetDependency */,
+			);
+			name = DiscountShopperUITests;
+			productName = DiscountShopperUITests;
+			productReference = 09C577C51C617A4400EA3365 /* DiscountShopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C5779E1C617A4400EA3365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DiscountShopper;
+				TargetAttributes = {
+					09C577A51C617A4400EA3365 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					09C577B91C617A4400EA3365 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09C577A51C617A4400EA3365;
+					};
+					09C577C41C617A4400EA3365 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09C577A51C617A4400EA3365;
+					};
+				};
+			};
+			buildConfigurationList = 09C577A11C617A4400EA3365 /* Build configuration list for PBXProject "DiscountShopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C5779D1C617A4400EA3365;
+			productRefGroup = 09C577A71C617A4400EA3365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C577A51C617A4400EA3365 /* DiscountShopper */,
+				09C577B91C617A4400EA3365 /* DiscountShopperTests */,
+				09C577C41C617A4400EA3365 /* DiscountShopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C577A41C617A4400EA3365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C577B41C617A4400EA3365 /* LaunchScreen.storyboard in Resources */,
+				09C577B11C617A4400EA3365 /* Assets.xcassets in Resources */,
+				09C577AF1C617A4400EA3365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577B81C617A4400EA3365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577C31C617A4400EA3365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C577A21C617A4400EA3365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C577AC1C617A4400EA3365 /* ViewController.swift in Sources */,
+				09C577AA1C617A4400EA3365 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577B61C617A4400EA3365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C577BF1C617A4400EA3365 /* DiscountShopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C577C11C617A4400EA3365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C577CA1C617A4400EA3365 /* DiscountShopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C577BC1C617A4400EA3365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C577A51C617A4400EA3365 /* DiscountShopper */;
+			targetProxy = 09C577BB1C617A4400EA3365 /* PBXContainerItemProxy */;
+		};
+		09C577C71C617A4400EA3365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C577A51C617A4400EA3365 /* DiscountShopper */;
+			targetProxy = 09C577C61C617A4400EA3365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09C577AD1C617A4400EA3365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C577AE1C617A4400EA3365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09C577B21C617A4400EA3365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C577B31C617A4400EA3365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C577CC1C617A4400EA3365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C577CD1C617A4400EA3365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C577CF1C617A4400EA3365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscountShopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09C577D01C617A4400EA3365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscountShopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09C577D21C617A4400EA3365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscountShopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscountShopper.app/DiscountShopper";
+			};
+			name = Debug;
+		};
+		09C577D31C617A4400EA3365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscountShopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscountShopper.app/DiscountShopper";
+			};
+			name = Release;
+		};
+		09C577D51C617A4400EA3365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscountShopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscountShopper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09C577D61C617A4400EA3365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscountShopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.DiscountShopper.DiscountShopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscountShopper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C577A11C617A4400EA3365 /* Build configuration list for PBXProject "DiscountShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C577CC1C617A4400EA3365 /* Debug */,
+				09C577CD1C617A4400EA3365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C577CE1C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C577CF1C617A4400EA3365 /* Debug */,
+				09C577D01C617A4400EA3365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09C577D11C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C577D21C617A4400EA3365 /* Debug */,
+				09C577D31C617A4400EA3365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09C577D41C617A4400EA3365 /* Build configuration list for PBXNativeTarget "DiscountShopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C577D51C617A4400EA3365 /* Debug */,
+				09C577D61C617A4400EA3365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C5779E1C617A4400EA3365 /* Project object */;
+}
